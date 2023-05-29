@@ -1,6 +1,5 @@
 import React from 'react';
 import LoginForm from './LoginForm';
-import './App.css';
 
 const App = () => {
   const handleSubmit = (username, password) => {
@@ -9,7 +8,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Login Form</h1>
+      <h1>Group 7 Login Form</h1>
       <LoginForm onSubmit={handleSubmit} />
     </div>
   );
